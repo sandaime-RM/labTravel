@@ -70,7 +70,7 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">11:30 - 14:30</h4>
+            <h4 class="text-emerald-800/80 text-2xl">11:00 - 14:30</h4>
             <h3 class="font-semibold text-gray-800 text-lg">伊豆シャボテン動物公園</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">
               全員で動物園に行きます。昼食もこの間に済ませます。そのあと、バスで伊豆高原駅まで戻ります。
