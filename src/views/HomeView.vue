@@ -45,7 +45,7 @@ onMounted(() => {
           前田研究室ゼミ旅行 2025
         </h1>
         <p class="md:text-xl inline-block text-emerald-700 p-1 pe-2 ps-4 bg-white shadow-xl">
-          1泊2日の熱海旅行
+          1泊2日の伊豆旅行
         </p>
         <br />
 
@@ -74,7 +74,7 @@ onMounted(() => {
                 <h3 class="font-bold text-lg mb-2 text-emerald-900">目的地</h3>
               </div>
 
-              <p class="text-gray-800 font-semibold">静岡県熱海市</p>
+              <p class="text-gray-800 font-semibold">静岡県伊東市</p>
             </div>
 
             <div class="bg-emerald-50 p-4 md:p-6 rounded-3xl">
