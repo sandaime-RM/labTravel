@@ -37,8 +37,7 @@ onMounted(() => {
   <div>
     <!-- ヒーローセクション -->
     <div
-      class="relative max-h-screen h-96 bg-cover bg-center"
-      style="background-image: url('./public/back.jpg')"
+      class="relative max-h-screen h-96 bg-cover bg-center bg-gradient-to-r from-emerald-600/40 to-lime-600/40"
     >
       <div class="absolute top-20 m-6 font-bold">
         <h1 class="text-2xl md:text-4xl p-2 ps-4 bg-white shadow-xl text-gray-900 mb-2">
@@ -49,7 +48,7 @@ onMounted(() => {
         </p>
         <br />
 
-        <p class="md:text-xl inline-block text-white m-3">{{ countdownMessage }}</p>
+        <p class="md:text-xl inline-block text-emerald-900 m-3">{{ countdownMessage }}</p>
       </div>
     </div>
 
