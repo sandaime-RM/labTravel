@@ -38,7 +38,7 @@ onMounted(() => {
     <!-- ヒーローセクション -->
     <div
       class="relative max-h-screen h-96 bg-cover bg-center"
-      style="background-image: url('/back.webp')"
+      style="background-image: url('./public/back.jpg')"
     >
       <div class="absolute top-20 m-6 font-bold">
         <h1 class="text-2xl md:text-4xl p-2 ps-4 bg-white shadow-xl text-gray-900 mb-2">
@@ -49,7 +49,7 @@ onMounted(() => {
         </p>
         <br />
 
-        <p class="md:text-xl inline-block text-gray-900/70 m-3">{{ countdownMessage }}</p>
+        <p class="md:text-xl inline-block text-white m-3">{{ countdownMessage }}</p>
       </div>
     </div>
 
@@ -150,8 +150,8 @@ onMounted(() => {
     <!-- CTAセクション -->
     <section class="py-16 bg-gradient-to-r from-emerald-500 to-teal-500 text-white">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-6">準備はOK？</h2>
-        <p class="text-xl mb-8">詳しいスケジュールや持ち物リストをチェックしよう！</p>
+        <h2 class="text-3xl font-bold mb-6">詳細を確認しましょう</h2>
+        <p class="text-xl mb-8">詳しいスケジュールや宿泊場所をチェックしよう！</p>
         <div class="flex flex-wrap gap-4 justify-center">
           <RouterLink
             to="/schedule"
@@ -160,10 +160,10 @@ onMounted(() => {
             <CalendarIcon class="inline w-6 h-6 mr-2" /> スケジュールを見る
           </RouterLink>
           <RouterLink
-            to="/preparation"
+            to="/pension"
             class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition shadow-lg"
           >
-            <ShoppingBagIcon class="inline w-6 h-6 mr-2" /> 持ち物と準備
+            <ShoppingBagIcon class="inline w-6 h-6 mr-2" /> 宿泊場所を見る
           </RouterLink>
         </div>
       </div>

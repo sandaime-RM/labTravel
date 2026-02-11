@@ -53,10 +53,10 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">8:00 - 10:00</h4>
-            <h3 class="font-semibold text-gray-800 text-lg">各自熱海駅まで移動</h3>
+            <h4 class="text-emerald-800/80 text-2xl">10:30</h4>
+            <h3 class="font-semibold text-gray-800 text-lg">伊豆高原駅に集合</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">
-              公共交通機関を利用して熱海駅まで各自で移動します。
+              伊豆高原駅まで各自移動し、駅で集合します。駅からバスで動物園まで移動します。
             </p>
           </div>
           <img
@@ -70,30 +70,15 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">10:00 - 13:00</h4>
-            <h3 class="font-semibold text-gray-800 text-lg">熱海観光</h3>
-            <p class="text-gray-700 text-sm leading-5.5 ms-2">詳細未定</p>
-          </div>
-          <img
-            src="/public/boat.jpg"
-            alt="遊覧船"
-            class="w-full max-w-72 h-36 m-2 object-cover rounded-3xl shadow border-4 border-emerald-600"
-          />
-        </div>
-
-        <div
-          class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
-        >
-          <div>
-            <h4 class="text-emerald-800/80 text-2xl">13:00 - 14:00</h4>
-            <h3 class="font-semibold text-gray-800 text-lg">昼食</h3>
+            <h4 class="text-emerald-800/80 text-2xl">11:30 - 14:30</h4>
+            <h3 class="font-semibold text-gray-800 text-lg">伊豆シャボテン動物公園</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">
-              熱海周辺？の飲食店でみんなで昼食の予定。
+              全員で動物園に行きます。昼食もこの間に済ませます。そのあと、バスで伊豆高原駅まで戻ります。
             </p>
           </div>
           <img
-            src="/public/lunch.jpg"
-            alt="昼食"
+            src="/public/back.jpg"
+            alt="サボテン"
             class="w-full max-w-72 h-36 m-2 object-cover rounded-3xl shadow border-4 border-emerald-600"
           />
         </div>
@@ -102,10 +87,10 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">14:00 - 15:30</h4>
+            <h4 class="text-emerald-800/80 text-2xl">15:00 - 16:30</h4>
             <h3 class="font-semibold text-gray-800 text-lg">食材の買い物</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">
-              夕食と朝食のために宿泊場所周辺のスーパーで買い物
+              夕食と朝食のために伊豆高原駅周辺のスーパーで買い物します。
             </p>
           </div>
           <img
@@ -119,7 +104,7 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">16:00 - 18:00</h4>
+            <h4 class="text-emerald-800/80 text-2xl">16:30 - 18:30</h4>
             <h3 class="font-semibold text-gray-800 text-lg">休憩と夕食準備</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">
               宿泊場所に着いたら、ゆっくり休んだり遊んだりしつつ、夕食の準備を行います。
@@ -136,7 +121,7 @@ const activeDay = ref(1)
           class="py-4 sm:flex justify-between border-b-2 border-dotted border-emerald-500/50 mb-4"
         >
           <div>
-            <h4 class="text-emerald-800/80 text-2xl">18:00 - 20:00</h4>
+            <h4 class="text-emerald-800/80 text-2xl">18:30 - 21:00</h4>
             <h3 class="font-semibold text-gray-800 text-lg">夕食</h3>
             <p class="text-gray-700 text-sm leading-5.5 ms-2">宿泊場所で夕食を取ります。</p>
           </div>
