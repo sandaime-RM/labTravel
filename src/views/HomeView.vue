@@ -82,7 +82,7 @@ onMounted(() => {
                 <h3 class="font-bold text-lg mb-2 text-emerald-900">参加者</h3>
               </div>
 
-              <p class="text-gray-800 font-semibold">M2 3名 / M1 6名 / B4 2名</p>
+              <p class="text-gray-800 font-semibold">M2 3名 / M1 7名 / B4 3名 / 先生 1名</p>
             </div>
           </div>
         </div>
