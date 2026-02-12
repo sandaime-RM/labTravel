@@ -28,7 +28,7 @@ const activeDay = ref(1)
         ]"
       >
         <div>1日目</div>
-        <div class="text-xs font-normal">（2月22日）</div>
+        <div class="text-xs font-normal">（2月26日）</div>
       </button>
       <button
         @click="activeDay = 2"
@@ -40,7 +40,7 @@ const activeDay = ref(1)
         ]"
       >
         2日目
-        <div class="text-xs font-normal">（2月23日）</div>
+        <div class="text-xs font-normal">（2月27日）</div>
       </button>
     </div>
 
